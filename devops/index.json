@@ -1,28 +1,28 @@
 {
   "title": "DevOps",
-  "description": "CI/CD Demo",
+  "description": "CI/CD Class",
   "difficulty": "Intermediate",
   "time": "4 hours",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Docker Compose",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Integrações",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Criando Pipeline CI",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Criando Pipeline CD",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "Deploy Kubernetes",
         "text": "step5.md"
       }
     ],
@@ -34,9 +34,14 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "showdashboard": true,
+    "dashboard": "Dashboard",
+    "uilayout": "terminal-iframe",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "ubuntu1904"
+    "imageid": "ubuntu1904",
+    "port": 8080,
+    "port": 8088
   }
 }
