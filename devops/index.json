@@ -42,6 +42,7 @@
   },
   "backend": {
     "imageid": "ubuntu1904",
+    "port": 3000,
     "port": 8080,
     "port": 8088
   }
