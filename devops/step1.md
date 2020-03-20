@@ -1,9 +1,13 @@
-# Criar ambiente
+### Criar ambiente
 
-## Clonar repositório
+#### Clonar repositório
 
-```
-git clone https://github.com/amioranza/setrem.git
-cd setrem
-docker-compose up -d
-```
+`git clone https://github.com/amioranza/setrem.git`
+`cd setrem`
+`docker-compose up -d`
+
+#### Dashboards
+
+**Jenkins**
+
+https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
