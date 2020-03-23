@@ -18,8 +18,12 @@ docker-compose -f katacoda/docker-compose-host01.yaml up -d
 
 **Jenkins**
 
+`echo [[HOST_IP]]`{{execute HOST1}}
+
 `echo https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].[[KATACODA_DOMAIN]]`{{execute HOST1}}
 
 **Gitlab**
+
+`echo [[HOST_IP]]`{{execute HOST2}}
 
 `echo https://[[HOST_SUBDOMAIN]]-8088-[[KATACODA_HOST]].[[KATACODA_DOMAIN]]`{{execute HOST2}}
