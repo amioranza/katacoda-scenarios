@@ -31,20 +31,6 @@
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "host01": [
-        {
-          "file": "docker-compose-host01.yaml",
-          "target": "~/"
-        }
-      ],
-      "host02": [
-        {
-          "file": "docker-compose-host02.yaml",
-          "target": "~/"
-        }
-      ]
     }
   },
   "environment": {

@@ -1,8 +1,18 @@
-#### Clonar repositório
+Executar no terminal 01
 
-`docker-compose up -d`{{execute HOST1}}
+```
+git clone https://github.com/amioranza/setrem.git && \
+cd setrem && \
+docker-compose up -d
+```{{execute HOST1}}
 
-`docker-compose up -d`{{execute HOST2}}
+Executar no terminal 02
+
+```
+git clone https://github.com/amioranza/setrem.git && \
+cd setrem && \
+docker-compose up -d
+```{{execute HOST2}}
 
 #### Dashboards
 
