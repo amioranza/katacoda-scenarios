@@ -18,8 +18,8 @@ docker-compose up -d
 
 **Jenkins**
 
-https://[[HOST01_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
+https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST01]].environments.katacoda.com/
 
 **Gitlab**
 
-https://[[HOST02_SUBDOMAIN]]-8088-[[KATACODA_HOST]].environments.katacoda.com/
+https://[[HOST_SUBDOMAIN]]-8088-[[KATACODA_HOST02]].environments.katacoda.com/
