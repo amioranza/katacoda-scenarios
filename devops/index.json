@@ -1,8 +1,8 @@
 {
-  "title": "DevOps",
+  "pathwayTitle": "DevOps",
+  "title": "CI/CD",
   "description": "CI/CD Class",
   "difficulty": "Intermediate",
-  "time": "4 hours",
   "details": {
     "steps": [
       {
@@ -34,13 +34,12 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
+    "showdashboard": true,
+    "dashboards": [{"name": "Jenkins","port": "8080", "host": "host01"},{"name": "Gitlab","port": "8088","host": "host02"}],
+    "uilayout": "terminal-terminal",
     "uimessage1": "\u001b[32mBem vindos a atividade de CI/CD.\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "ubuntu1904",
-    "port": 3000,
-    "port": 8080,
-    "port": 8088
+    "imageid": "docker"
   }
 }
